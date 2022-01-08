@@ -36,7 +36,7 @@ def roll(modifier=0):
 
 
 def to_str(roll, modifier, choices):
-    return f"""{" ".join([faces[f] for f in choices])} ({modifier}): {roll}"""
+    return f"""[{" ".join([faces[f] for f in choices])}] ({modifier}): {roll}"""
 
 def command(modifier=0):
     if isinstance(modifier, str):

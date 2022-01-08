@@ -16,7 +16,9 @@ async def roll_fate(ctx, modifier="0"):
 
 @bot.command(name="f")
 async def roll_fate(ctx, modifier="0"):
-    await ctx.send(fate.command(modifier))
+    who = ctx.author.name
+    roll = fate.command(modifier)
+    await ctx.send(f"@{who} `{roll}`")
 
 
 if __name__ == "__main__":
