@@ -1,17 +1,17 @@
 import random
 
 ladder = {
-    'legendary': 8,
-    'epic': 7,
-    'fantastic': 6,
-    'superb': 5,
-    'great': 4,
-    'good': 3,
-    'fair': 2,
-    'average': 1,
-    'mediocre': 0,
-    'poor': -1,
-    'terrible': -2,
+    'terrible': -2, 'ter': -2, 't': -2,
+    'poor': -1, 'p': -1,
+    'mediocre': 0, 'med': 0, 'm': 0,
+    'average': 1, 'avg': 1, 'av': 1, 'a': 1,
+    'fair': 2, 'f': 2,
+    'good': 3, 'go': 3, 'g': 3,
+    'great': 4, 'gr': 4,
+    'superb': 5, 's': 5,
+    'fantastic': 6, 'fan': 6,
+    'epic': 7, 'ep': 7, 'e': 7,
+    'legendary': 8, 'legend': 8, 'leg': 8, 'l': 8,
 }
 
 faces = {
